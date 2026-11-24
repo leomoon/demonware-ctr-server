@@ -1,0 +1,40 @@
+# Binaries and build artifacts
+*.exe
+*.exe~
+*.linux
+server-*
+*.out
+/bin/
+/dist/
+
+# Local configuration and secrets - NEVER commit
+.env
+ryunet.env
+nextendo.env
+*.pem
+*.key
+*.pfx
+*.der
+nextendo_secret.key
+ryunet_secret.key
+docs/
+docs/RESUMEN_CONFIGURACION.md
+
+# Runtime states, dumps and captures
+sessions/
+dumps/
+capture/
+pubfiles/
+/wallets/
+*.economy-v2.json
+127.0.0.1
+
+# Runtime logs
+stderr.txt
+stdout.txt
+*.log
+*.err
+
+# OS files
+.DS_Store
+Thumbs.db
